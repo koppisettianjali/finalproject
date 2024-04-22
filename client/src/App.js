@@ -10,6 +10,8 @@ import Firstpage from './firstpage/firstpage';
 import Detailevent from './commoncomponent/detailEvent/detailevent';
 import Registeredevents from './commoncomponent/detailEvent/registeredevents';
 import Contactus from './commoncomponent/contactus/contactus';
+import Aboutus from './commoncomponent/aboutus/aboutus';
+import Help from './commoncomponent/help/help';
 import { useState } from 'react';
 import Detaileventngo from './componentsngo/eventdetailsngo/eventdetailsngo';
 import Updatengo from './componentsngo/updatengo/updatengo';
@@ -114,6 +116,12 @@ function App() {
 
           <Route path="/contactus">
             <Contactus />
+          </Route>
+          <Route path="/aboutus">
+            <Aboutus />
+          </Route>
+          <Route path="/help">
+            <Help />
           </Route>
 
         </Switch>

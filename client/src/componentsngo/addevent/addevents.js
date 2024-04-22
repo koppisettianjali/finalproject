@@ -36,7 +36,7 @@ const Updateevents = () => {
 
           const timeElapsed = Date.now();
           const today = new Date(timeElapsed);
-          console.log(eventdata.edate)
+          console.log(variables.edate)
           console.log(today.toISOString())
 
           const Data = JSON.stringify({ ...variables, Image });

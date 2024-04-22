@@ -14,7 +14,7 @@ app.use(express.json({ limit: "50mb", extended: true }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(cors())
 
-mongoose.connect('mongodb://localhost:27017/ngosysdb', {
+mongoose.connect('mongodb+srv://admin:admin@anjalicluster.42lywgw.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {

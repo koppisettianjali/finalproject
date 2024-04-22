@@ -18,7 +18,7 @@ const Firstpage =() =>
         <nav>
             <a href="/">Home</a>
             <a href="/contactus">Contact Us</a>
-            <a href="/aboutus">About us</a>
+            <a href="/aboutus">about Us</a>
         </nav>
         </section>
 
